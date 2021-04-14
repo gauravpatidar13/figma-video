@@ -1,0 +1,50 @@
+.footer1{
+    width: 100%;
+    height: 400px;
+    padding-top: 60px;
+    background: rgb(16, 27, 84);
+    color:rgb(141, 151, 201);
+}
+.getting-started{
+    position: relative;
+    height: 300px;
+}
+.getting-started h6{
+    text-transform: uppercase;
+    font-size: 14px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+ul {
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+ul li a{
+    color: inherit;
+    font-size: 16px;
+    font-weight: 500;
+}
+.getting-started p{
+font-size: 16px;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.social-links{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+.social-links .circle{
+    border-radius: 50%;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-right: 15px;
+    border:1px solid rgb(141, 151, 201);
+}

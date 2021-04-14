@@ -1,0 +1,115 @@
+.upload-section2{
+    background:rgb(23, 60, 255);    
+   width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.upload-video{
+    background:#fff;
+    border-radius: 8px;
+    width: 350px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+.upload-video h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.upload-video p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color:rgb(92, 81, 63);
+}
+.upload-video .upload-video-select{
+width: 100%;
+height: 280px;
+padding-top: 45px;
+padding-bottom: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+background:rgb(244, 246, 255);
+border:2px dashed lightslategray;
+}
+.upload-video .upload-video-select .drag-text{
+font-size: 14px;
+color:lightslategrey;
+font-family: sans-serif;
+font-weight: 500;
+}
+.select-file-btn{
+        background:rgb(23,60,255);
+        border-radius: 10px;
+        border:none;
+        color:#fff;
+        font-size: 14px;
+ letter-spacing: 1px;
+ width: 90%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-bottom: 4px solid rgb(0,33,208);
+        
+}
+.video-stream{
+    padding-left: 55px;
+    width: 50%;
+}
+.video-stream h4{
+    color:#fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 40px;
+    font-size: 28px;
+}
+.video-stream p{
+    color:rgb(192, 202, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.video-stream .video-stream-btns{
+    display: flex;
+    flex-direction: row;
+}
+.video-stream-btns .sign-up-orange{
+    background:rgb(255,153,0);
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+    font-size: 14px;
+letter-spacing: 1px;
+width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 4px solid rgb(155,115,54);   
+}
+.video-stream-btns .view-api-docs-btn{
+    background:transparent;
+    border-radius: 10px;
+    border:2px solid rgb(192, 202, 255);
+    color:#fff;
+    font-size: 14px;
+letter-spacing: 1px;
+width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   margin-left: 30px;
+}

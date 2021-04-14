@@ -1,0 +1,59 @@
+.header{
+    height: 100px;
+    background: #fff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 150px;
+}
+.brand-name{
+font-weight: bold;
+font-size: 21px;
+color:rgb(73, 94, 118);
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0rem;
+    width: 500px;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: 700;
+    margin-right: 70px;
+    font-size: 14px;
+    color:rgb(84, 104, 127);
+}
+.menu ul li:first-child{
+    color:rgb(23,60,255);
+    border-bottom: 3px solid rgb(23,60,255);
+}
+.right-section{
+    display: flex;
+    flex-direction: row;
+    padding-right: 130px;
+}
+.sign-in button{
+background:rgb(23,60,255);
+border-radius: 10px;
+border:none;
+color:#fff;
+font-size: 14px;
+width: 200px;
+padding-top: 14px;
+padding-bottom: 14px;
+border-bottom: 4px solid rgb(0,33,208);
+}

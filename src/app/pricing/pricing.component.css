@@ -1,0 +1,123 @@
+.key-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .key-header h3{
+     font-size: 28px;
+     font-weight: bold;
+ }
+ .key-header h3 span{
+ color:rgb(255, 153, 0);
+ }
+ .key-header .line-orange{
+     width: 60px;
+     height: 3px;
+     margin-bottom: 12px;
+     margin-top: 4px;
+     letter-spacing: 1px;
+     background:rgb(255, 153, 0)
+ }
+ .business-plans{
+     background:rgb(255,249,239);
+     height: 300px;
+     padding-top: 45px;
+     padding-bottom: 45px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .enterprise-plans{
+    background:rgb(255,249,239);
+    height: 300px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .business-plans h3{
+color:rgb(239, 131, 49);
+font-weight: 600;
+text-align: center;
+font-size: 21px;   
+margin-bottom: 20px;
+}
+.enterprise-plans h3{
+    color:rgb(23, 60, 255);
+    font-weight: 600;
+    text-align: center;
+    font-size: 21px;   
+    margin-bottom: 20px;
+    }
+.business-plans .btn-orange{
+    background:rgb(255,153,0);
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+    font-size: 14px;
+letter-spacing: 1px;
+margin-top: 30px;
+width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 4px solid rgb(155,115,54); 
+
+}
+.enterprise-plans .btn-blue{
+    background:rgb(23, 60, 255);
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+    font-size: 14px;
+letter-spacing: 1px;
+margin-top: 30px;
+width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 4px solid rgb(0,33,208); 
+
+}
+.business-plans p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 700;
+    color:rgb(92, 81, 63);
+}
+.enterprise-plans p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 700;
+    color:rgb(92, 81, 63);
+}
+ .enterprise-plans{
+     height: 300px;
+     background: rgb(245, 247, 255);
+ }
+ .row.dashed-border{
+     border:1px dashed gray;
+     padding-top: 15px;
+     padding-bottom: 15px;
+
+ }
+ .cloudflare-stream{
+     height: 80vh;
+     border-radius: 10px;
+     background:rgb(255,249,239);
+     margin-left: -15px;
+ }
+ .plan{
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
