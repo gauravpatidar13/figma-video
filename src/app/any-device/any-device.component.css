@@ -29,7 +29,12 @@ line-height: 58px;
 color: #312E2B;
   }
   .upload-via-api h4 span{
-      color:rgb(255, 153, 0)
+      color:rgb(255, 153, 0);
+      font-family: 'Zilla Slab',serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 58px;
   }
   .upload-via-api p{
       margin-top: 20px;
@@ -41,4 +46,60 @@ color: #312E2B;
       width: 50px;
       height: 2px;
       background:rgb(255, 153, 0);
+  }
+
+
+  @media(max-width:567px){
+    .any-device{
+        width: 100%;
+        height: auto;
+        background:rgb(255, 249, 239);
+        padding:30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .upload-via-api{
+        width: 100%;  
+        padding-top: 0px;
+      }
+      .upload-via-api h4{
+        font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #312E2B;
+      }
+      .upload-via-api h4 span{
+        color:rgb(255, 153, 0);
+        font-family: 'Zilla Slab',serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .upload-via-api .line-orange{
+        width: 50px;
+        height: 3px;
+        margin-left: 50%;
+        transform:translate(-50%,0);
+        background:rgb(255, 153, 0);
+    }
+    .upload-via-api p{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .girl-section{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
   }

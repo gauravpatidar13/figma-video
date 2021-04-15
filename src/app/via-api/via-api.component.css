@@ -20,7 +20,12 @@
     color: #312E2B;
 }
 .upload-via-api h4 span{
-    color:rgb(255, 153, 0)
+    color:rgb(255, 153, 0);
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px; 
 }
 .upload-via-api p{
     margin-top: 20px;
@@ -30,7 +35,7 @@
 }
 .upload-via-api .line-orange{
     width: 50px;
-    height: 2px;
+    height: 3px;
     background:rgb(255, 153, 0);
 }
 .curl-cmd{
@@ -38,4 +43,57 @@
 }
 .curl-cmd img{
     width: 100%;
+}
+
+
+@media (max-width:567px){
+    .via-api{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .upload-via-api{
+        width: 100%;  
+        
+      }
+      .upload-via-api h4{
+        font-family: 'Zilla Slab', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        text-align: center;
+        line-height: 48px; 
+        color: #312E2B;
+    }   
+    .upload-via-api h4 span{
+        color:rgb(255, 153, 0);
+        font-family: 'Zilla Slab', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 48px; 
+    }
+    .upload-via-api p{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .curl-cmd{
+        width: 100%;
+    }
+    .upload-via-api .line-orange{
+        width: 50px;
+        height: 3px;
+        margin-left: 50%;
+        transform: translate(-50%,0);
+        background:rgb(255, 153, 0);
+    }
+
 }

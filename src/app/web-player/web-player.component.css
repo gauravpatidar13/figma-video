@@ -4,6 +4,8 @@
     background:#fff;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -23,6 +25,11 @@ line-height: 58px;
 color: #374146;
   }
   .upload-via-api h4 span{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
       color:blue;
   }
   .upload-via-api p{
@@ -43,4 +50,53 @@ color: #374146;
 
   .men-image-wr img{
       width: 400px;
+  }
+
+  @media (max-width:567px){
+    .web-player{
+        width: 100%;
+        height: auto;
+        background:#fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .upload-via-api{
+        width: 100%;  
+        text-align: center;
+        margin-right: 0px;
+      }  
+      .upload-via-api h4{
+        font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    
+    color: #374146;
+      }
+      .upload-via-api h4 span{
+        font-family: 'Zilla Slab',serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 48px;
+          color:blue;
+      }
+      .upload-via-api .line-blue{
+        width: 50px;
+        height: 3px;
+        background:blue;
+        margin-left: 50%;
+        transform: translate(-50%,0);
+    }
+    .upload-via-api p{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 0px;
+    }
   }
