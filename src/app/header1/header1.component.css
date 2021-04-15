@@ -16,10 +16,14 @@
     justify-content: space-between;
 width: 150px;
 }
-.brand-name{
-font-weight: bold;
-font-size: 21px;
-color:rgb(73, 94, 118);
+
+.brand-name a{
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #495E76;
 }
 .menu{
     display: flex;

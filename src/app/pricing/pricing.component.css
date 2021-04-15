@@ -2,15 +2,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
      text-align: center;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  
  .key-header h3{
-     font-size: 28px;
-     font-weight: bold;
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #312E2B;
  }
  .key-header h3 span{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
  color:rgb(255, 153, 0);
  }
  .key-header .line-orange{
@@ -18,7 +29,6 @@
      height: 3px;
      margin-bottom: 12px;
      margin-top: 4px;
-     letter-spacing: 1px;
      background:rgb(255, 153, 0)
  }
  .business-plans{
@@ -27,6 +37,7 @@
      padding-top: 45px;
      padding-bottom: 45px;
      display: flex;
+     border-radius: 8px;
      flex-direction: column;
      align-items: center;
  }
@@ -36,21 +47,28 @@
     padding-top: 45px;
     padding-bottom: 45px;
     display: flex;
+    border-radius: 8px;
     flex-direction: column;
     align-items: center;
 }
  .business-plans h3{
-color:rgb(239, 131, 49);
-font-weight: 600;
-text-align: center;
-font-size: 21px;   
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #EF8331;   
 margin-bottom: 20px;
 }
 .enterprise-plans h3{
-    color:rgb(23, 60, 255);
-    font-weight: 600;
-    text-align: center;
-    font-size: 21px;   
+    color:#173CFF;
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center; 
     margin-bottom: 20px;
     }
 .business-plans .btn-orange{
@@ -85,39 +103,183 @@ width: 250px;
     border-bottom: 4px solid rgb(0,33,208); 
 
 }
-.business-plans p{
+.business-plans span{
+    display: block;
     text-align: center;
     font-size: 16px;
-    margin-bottom: 0;
-    margin-top: 15px;
-    font-weight: 700;
-    color:rgb(92, 81, 63);
+    font-style: normal;
+font-weight: normal;
+line-height: 37px;
+color: #5C513F;
 }
-.enterprise-plans p{
+.enterprise-plans span{
+    display: block;
     text-align: center;
     font-size: 16px;
-    margin-bottom: 0;
-    margin-top: 15px;
-    font-weight: 700;
-    color:rgb(92, 81, 63);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 37px;
+    color: #5C513F;
 }
  .enterprise-plans{
      height: 300px;
      background: rgb(245, 247, 255);
  }
  .row.dashed-border{
-     border:1px dashed gray;
-     padding-top: 15px;
-     padding-bottom: 15px;
+   border:1px dashed #d5c88c;
+   border-radius:8px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
+ .row.dashed-border .col-xl-6{
+     padding-left: 10px;
+     padding-right: 10px;
+ }
  .cloudflare-stream{
-     height: 80vh;
      border-radius: 10px;
      background:rgb(255,249,239);
      margin-left: -15px;
  }
+
+ .cloudflare-stream .simp{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 40px;
+    line-height: 29px;
+    text-align: center;
+    color: #312E2B;
+ }
+ .video-stream .simp{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 40px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #312E2B;
+ }
+ .cloudflare-stream .simp span{
+     color:rgb(255, 153, 0);
+     font-family: 'Zilla Slab',serif;
+ }
+ .video-stream .simp span{
+    color:rgb(23, 60, 255);
+    font-family: 'Zilla Slab',serif;
+}
+ .cloudflare-stream .simp-para{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #5C513F;
+ }
+ .video-stream .simp-para{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #5C513F;
+ }
+ .cloudflare-stream .total-cost{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;  
+    color: #312E2B;  
+ }
+ .video-stream .total-cost{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;  
+    color: #312E2B;  
+ }
+.streaming-storage{
+     border-top: 1px dashed gray;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     border-bottom: 1px dashed gray;
+ }
+ .streaming-storage h3.stre{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 25px;
+    color: #312E2B;
+ }
+  .streaming-storage h3{
+    font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #312E2B;
+ }
+ .par-st{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+color: #5C513F;
+    padding-right: 10px;
+ }
+ .par-st2{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+margin-bottom: 5px;
+line-height: 28px;
+color: #5C513F;
+padding-right: 10px;
+ }
  .plan{
      padding-top: 30px;
      padding-bottom: 30px;
+ }
+ .cloud-end{
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+ .cloud-end p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 25px;
+    color: #5C513F;
+ }
+ .streaming-storage span.details{
+     color:blue;
+ }
+ .cloud-end .btn-orange{
+     width: 89%;
+     background: #FF9900;
+box-shadow: 0px 4px 0px #9B7336;
+border-radius: 8px;
+border:none;
+padding-top: 12px;
+padding-bottom: 12px;
+margin-left: 30px;
+margin-right: 30px;
+font-size: 14px;
+color:#fff;
  }

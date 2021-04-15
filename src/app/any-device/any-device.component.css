@@ -21,9 +21,12 @@
     width: 50%;  
   }
   .upload-via-api h4{
-      font-size: 25px;
-      font-weight: bold;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Zilla Slab',serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 58px;
+color: #312E2B;
   }
   .upload-via-api h4 span{
       color:rgb(255, 153, 0)

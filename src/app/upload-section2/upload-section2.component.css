@@ -3,7 +3,7 @@
    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 150px;
+    padding-right: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,9 +43,13 @@ border:2px dashed lightslategray;
 }
 .upload-video .upload-video-select .drag-text{
 font-size: 14px;
-color:lightslategrey;
-font-family: sans-serif;
-font-weight: 500;
+line-height: 16px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color:#a4a4a4;
+line-height: 17px;
+font-family: 'Zilla Slab', serif;
 }
 .select-file-btn{
         background:rgb(23,60,255);
@@ -68,11 +72,10 @@ font-weight: 500;
 }
 .video-stream h4{
     color:#fff;
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
     font-weight: bold;
-    letter-spacing: 1px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 40px;
-    font-size: 28px;
+    font-size: 42px;
 }
 .video-stream p{
     color:rgb(192, 202, 255);

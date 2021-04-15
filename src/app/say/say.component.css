@@ -31,14 +31,41 @@
 .quote-user-image{
     margin-right: 35px;
 }
+.quote-user-text{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+color: #312E2B;
+}
+
+.carousel{
+    padding-bottom: 70px;
+}
+.carousel-indicators{
+    margin-top: 50px;
+}
+.carousel-indicators span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background:rgb(255,249,239)
+}
+span.active{
+    background:#FF9900!important;
+}
 .quote-user-text p{
     color:rgb(136, 0, 21);
     margin-bottom: 0;
+    font-family: 'Zilla Slab',serif;
     font-size: 16px;
     font-weight: 500;
 }
 .quote-user-text h6{
     margin-bottom: 0;
+    font-family: 'Zilla Slab',serif;
 }
 .quote-text .quote-icon-wr{
     position: absolute;
