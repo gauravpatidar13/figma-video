@@ -1,19 +1,16 @@
 .web-player{
     width: 100%;
-    height: 400px;
+    height: 700px;
     background:#fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .upload-via-api{
-    width: 40%;  
-    margin-right: 30px;
+    width: 58%;  
   }
   .upload-via-api h4{
     font-family: 'Zilla Slab',serif;
@@ -33,25 +30,31 @@ color: #374146;
       color:blue;
   }
   .upload-via-api p{
-      margin-top: 20px;
-      font-size: 14px;
+      margin-top: 30px;
+      font-size: 16px;
       font-weight: 500;
-      padding-right: 23px;
   }
   .upload-via-api .line-blue{
-      width: 50px;
-      height: 2px;
+      width: 60px;
+      height: 3px;
+      margin-top: 30px;
       background:blue;
   }
   .upload-via-api .tblue{
-      color:blue;
-      margin-top: 5px;
+      font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 61px;
+color: #173CFF;
   }
 
-  .men-image-wr img{
-      width: 400px;
+  .men-image-wr {
+      width: 40%;
+      margin-right: -30px;
   }
-
+.men-image-wr img{
+  width: 100%;
+}
   @media (max-width:567px){
     .web-player{
         width: 100%;

@@ -1,21 +1,22 @@
 .any-device{
     width: 100%;
-    height: 400px;
+    height: 700px;
     background:rgb(255, 249, 239);
-    padding:30px;
+    padding-left:140px;
+    padding-right: 140px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .girl-section{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .girl-section img{
-    width: 400px;
+    width: 100%;
 }
 .upload-via-api{
     width: 50%;  
@@ -26,6 +27,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 48px;
 line-height: 58px;
+margin-bottom: 30px;
 color: #312E2B;
   }
   .upload-via-api h4 span{
@@ -37,14 +39,15 @@ color: #312E2B;
       line-height: 58px;
   }
   .upload-via-api p{
-      margin-top: 20px;
-      font-size: 14px;
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 28px;
+      color:#5C513F;
       font-weight: 500;
-      padding-right: 23px;
   }
   .upload-via-api .line-orange{
-      width: 50px;
-      height: 2px;
+      width: 60px;
+      height: 3px;
       background:rgb(255, 153, 0);
   }
 

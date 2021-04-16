@@ -1,12 +1,11 @@
 .via-api{
     display: flex;
     flex-direction: row;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+    height: 700px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .upload-via-api{
   width: 50%;  
@@ -16,6 +15,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
+    margin-bottom: 30px;
     line-height: 58px; 
     color: #312E2B;
 }
@@ -28,21 +28,24 @@
     line-height: 58px; 
 }
 .upload-via-api p{
-    margin-top: 20px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 16px;
     font-weight: 500;
+    line-height: 28px;
     padding-right: 23px;
 }
 .upload-via-api .line-orange{
-    width: 50px;
+    width: 60px;
     height: 3px;
     background:rgb(255, 153, 0);
 }
 .curl-cmd{
-    width: 50%;
+    filter: drop-shadow(0px 20px 30px rgba(75, 52, 31, 0.53));
+    width: 45%;
 }
 .curl-cmd img{
     width: 100%;
+    
 }
 
 

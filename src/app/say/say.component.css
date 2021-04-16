@@ -3,12 +3,12 @@
     height: 600px;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 73px;
 }
 .quote .quote-text{
-    height: 300px;
     width: 100%;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 67px;
+    padding-bottom: 67px;
     background:rgb(255, 249, 239);
     border-radius: 8px;
     padding-left: 70px;
@@ -43,7 +43,7 @@ color: #312E2B;
     padding-bottom: 70px;
 }
 .carousel-indicators{
-    margin-top: 50px;
+    bottom:100px;
 }
 .carousel-indicators span{
     width: 12px;
@@ -70,12 +70,12 @@ span.active{
 .quote-text .quote-icon-wr{
     position: absolute;
     left: 48%;
-    top:-20px;
-    width: 95px;
-    padding-left: 5px;
-    padding-right: 5px;
+    top: -12px;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    background: #fff;
+    background: rgb(255, 249, 239);
 }

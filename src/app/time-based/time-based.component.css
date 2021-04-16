@@ -1,23 +1,23 @@
 .time-based{
     width: 100%;
-    height: 400px;
+    height: 700px;
     background:rgb(245, 247, 255);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-left: 120px;
     padding-right: 120px;
 }
 .upload-via-api{
-    width: 40%;
-    margin-left: 60px;
+    width: 54%;
   }
   .upload-via-api h4{
     font-family: 'Zilla Slab',serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
+    margin-bottom: 30px;
     line-height: 58px;
     color: #374146;
   }
@@ -30,18 +30,21 @@
     line-height: 58px;
   }
   .upload-via-api p{
-      margin-top: 20px;
-      font-size: 14px;
+      margin-top: 30px;
+      font-size: 16px;
       font-weight: 500;
-      padding-right: 23px;
   }
   .upload-via-api .line-blue{
       width: 50px;
       height: 2px;
       background:blue;
   }
+  .cmd-wr{
+    width: 45%;
+    margin-left: -30px;
+  }
   .cmd-wr img{
-      width: 520px;
+      width: 100%;
   }
 
   @media (max-width:567px){
@@ -79,7 +82,7 @@
       line-height: 48px;
     }
     .upload-via-api .line-blue{
-        width: 50px;
+        width: 60px;
         height: 3px;
         background:blue;
         margin-left: 50%;
