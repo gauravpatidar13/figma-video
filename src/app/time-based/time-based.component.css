@@ -69,8 +69,8 @@
         font-family: 'Zilla Slab',serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 38px;
-        line-height: 48px;
+        font-size: 35px;
+        line-height: 45px;
         color: #374146;
       }
       .upload-via-api h4 span{
@@ -87,5 +87,9 @@
         background:blue;
         margin-left: 50%;
         transform: translate(-50%,0);
+    }
+    .cmd-wr{
+      width: 100%;
+      margin-left: 3px;
     }
   }

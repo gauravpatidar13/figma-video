@@ -79,3 +79,70 @@ span.active{
     flex-direction: row;
     background: rgb(255, 249, 239);
 }
+
+@media (max-width:567px){
+    .say{
+        height: auto;
+    }
+    .quote-text .quote-icon-wr{
+        position: absolute;
+        left: 40%;
+        top: -12px;
+        width: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        background: rgb(255, 249, 239);
+    }
+    .quote .quote-text{
+        width: 100%;
+        padding-top: 67px;
+        padding-bottom: 32px;
+        background:rgb(255, 249, 239);
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border:2px solid orange;
+        position: relative;
+    }
+    .quote-text h5{
+        font-size: 14px;
+        line-height: 34px;
+        text-align: center;
+        color:rgb(101, 97, 92);
+    }
+    .carousel-indicators{
+        bottom:170px;
+    } 
+    .quote-user{
+        padding-top: 85px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .quote-user-image{
+        margin-right: 0px;
+    }
+}
+@media(min-width:278px) and (max-width:305px){
+    .carousel-indicators{
+        bottom:210px;
+    } 
+}
+@media(min-width:251px)and (max-width:277px){
+    .carousel-indicators{
+        bottom:230px;
+    }   
+}
+@media(min-width:227px) and (max-width:250px){
+    .carousel-indicators{
+        bottom:255px;
+    }  
+}
+@media(max-width:227px){
+    .carousel-indicators{
+        bottom:260px;
+    }  
+}

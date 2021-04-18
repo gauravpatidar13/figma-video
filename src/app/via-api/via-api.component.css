@@ -100,3 +100,8 @@
     }
 
 }
+@media (min-width:200px) and (max-width:230px){
+    .via-api{
+        margin-top: 50px;
+    }
+}
