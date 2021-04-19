@@ -94,3 +94,26 @@ color:rgb(255, 153, 0);
     border-radius: 8px; 
     }
 }
+@media (min-width:568px) and (max-width:767px){
+    .key-features{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .key-header p{
+        margin-bottom: 40px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .key-features{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .key-header p{
+        margin-bottom: 40px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .key-features{
+        padding-bottom: 150px;
+    }
+}

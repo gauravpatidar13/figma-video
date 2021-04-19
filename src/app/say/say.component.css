@@ -126,6 +126,20 @@ span.active{
         margin-right: 0px;
     }
 }
+@media (min-width:568px) and (max-width:767px){
+  .carousel-indicators{
+      bottom:150px;
+  }
+  .say{
+      height: auto;
+      margin-bottom: 0;
+  }
+}
+@media (min-width:768px) and (max-width:991px){
+.carousel-indicators{
+    bottom:150px;
+}
+}
 @media(min-width:278px) and (max-width:305px){
     .carousel-indicators{
         bottom:210px;

@@ -213,5 +213,198 @@ align-items: center;
 }
 
 @media (min-width:568px) and (max-width:767px){
-
+    .upload-file .upload-file-btn{
+        background:rgb(23,60,255);
+        border-radius: 8px;
+        border:none;
+        color:#fff;
+        font-size: 14px;
+ letter-spacing: 1px;
+ width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-bottom: 4px solid rgb(0,33,208);
+    }
+    .upload-section2{
+        background:rgb(23, 60, 255);     
+       width: 100%;
+       height: auto;
+        padding-top: 52px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .upload-file{
+        display: block;
+    }
+    .video-stream{
+        padding-top: 0px;
+        width: 85%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .video-stream p{
+        margin-bottom: 2rem;
+    }
+    .upload-video{
+        background:#fff;
+        border-radius: 8px;
+        width: -webkit-fill-available;
+        height: 500;
+        margin-top: 22px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+    }
+    .video-stream .video-stream-btns{
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+    .video-stream h4{
+        font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px; 
+    color: #FFFFFF;
+    }
+    .video-stream-btns .sign-up-orange{
+        border:none;
+        color:#fff;
+        font-size: 14px;
+    width: 80vw;
+    height: 60px;
+        background: #FF9900;
+    box-shadow: 0px 4px 0px #9B7336;
+    border-radius: 8px;  
+    }
+    .video-stream-btns .view-api-docs-btn{
+        background:transparent;
+        border-radius: 8px;
+        border:2px solid rgba(255, 255, 255,0.2);
+        color:#fff;
+        font-size: 14px;
+    letter-spacing: 1px;
+    width: 80vw;
+    height: 60px;
+    margin-left: 0;
+       margin-top: 20px;
+    }
+    .upload-video .upload-video-select{
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .upload-file{
+        width: 285px;
+    }
+    .upload-file .upload-file-btn{
+        background:rgb(23,60,255);
+        border-radius: 8px;
+        border:none;
+        color:#fff;
+        font-size: 14px;
+ letter-spacing: 1px;
+ width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-bottom: 4px solid rgb(0,33,208);
+    }
+    .upload-section2{
+        background:rgb(23, 60, 255);     
+       width: 100%;
+       height: auto;
+        padding-top: 52px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .upload-file{
+        display: block;
+    }
+    .video-stream{
+        padding-top: 0px;
+        width: 85%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .video-stream p{
+        margin-bottom: 2rem;
+    }
+    .upload-video{
+        background:#fff;
+        border-radius: 8px;
+        width: -webkit-fill-available;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 22px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+    }
+    .video-stream .video-stream-btns{
+        display: flex;
+        flex-direction: row;
+justify-content: center;
+align-items: center;
+    }
+    .video-stream h4{
+        font-family: 'Zilla Slab',serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px; 
+    color: #FFFFFF;
+    }
+    .upload-video p{
+        margin-bottom: 0;
+    }
+    .video-stream-btns .sign-up-orange{
+        border:none;
+        color:#fff;
+        font-size: 14px;
+    width: 80vw;
+    height: 60px;
+        background: #FF9900;
+    box-shadow: 0px 4px 0px #9B7336;
+    border-radius: 8px;  
+    }
+    .video-stream-btns .view-api-docs-btn{
+        background:transparent;
+        border-radius: 8px;
+        border:2px solid rgba(255, 255, 255,0.2);
+        color:#fff;
+        font-size: 14px;
+    letter-spacing: 1px;
+    width: 80vw;
+    height: 60px;
+    margin-left: 30px;
+       margin-top: 0px;
+    }
+    .upload-video .upload-video-select{
+        display: none;
+    }
 }

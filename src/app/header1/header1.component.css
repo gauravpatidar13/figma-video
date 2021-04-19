@@ -111,3 +111,160 @@ margin-right: 0;
             box-shadow: 0px 4px 0px #0021D0;
             }
 }
+@media(min-width:568px) and (max-width:767px){
+    nav{
+        height: 100vh;
+        padding-bottom: 85px;
+    }
+  ul li:first-child{
+      border-bottom: 3px solid #173cff;
+      margin-top: 0;
+  }
+    .navbar{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar-nav{
+      align-items: center;
+      padding-top: 50px;
+      width: 100%;
+      padding-bottom: 50px;
+    }
+    .navbar-nav .nav-item{
+        width: fit-content;
+    }
+    .navbar-nav .nav-item .nav-link{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+    .navbar-brand{
+        width: 100%;
+        align-self: flex-start;
+        margin-right: 0;
+        margin-left: 0!important;
+    }
+    .sign-in button{
+        background:rgb(23,60,255);
+        border-radius: 8px;
+        border:none;
+        color:#fff;
+        font-size: 14px;
+        width: 195px;
+        height: 55px;
+margin-left: 0;
+margin-right: 0;
+        box-shadow: 0px 4px 0px #0021D0;
+        }
+        .ml-auto{
+            margin-left: 0!important;
+        }
+        .navbar-brand a span{
+            display: none;
+        }
+        .navbar-light .navbar-brand a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-light .navbar-brand a .close{
+            display: block;
+        }
+        .sign-in button{
+            background:rgb(23,60,255);
+            border-radius: 8px;
+            border:none;
+            color:#fff;
+            font-size: 14px;
+            width: 80vw;
+            height: 55px;
+            margin-right: 20px;
+            margin-left: 20px;
+            box-shadow: 0px 4px 0px #0021D0;
+            }
+}
+@media(min-width:768px) and (max-width:991px){
+    nav{
+        height: 100vh;
+        padding-bottom: 85px;
+    }
+  ul li:first-child{
+      border-bottom: 3px solid #173cff;
+      margin-top: 0;
+  }
+    .navbar{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar-nav{
+      align-items: center;
+      padding-top: 50px;
+      width: 100%;
+      padding-bottom: 50px;
+    }
+    .navbar-nav .nav-item{
+        width: fit-content;
+    }
+    .navbar-nav .nav-item .nav-link{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+    .navbar-brand{
+        width: 100%;
+        align-self: flex-start;
+        margin-right: 0;
+        margin-left: 0!important;
+    }
+    .sign-in button{
+        background:rgb(23,60,255);
+        border-radius: 8px;
+        border:none;
+        color:#fff;
+        font-size: 14px;
+        width: 195px;
+        height: 55px;
+margin-left: 0;
+margin-right: 0;
+        box-shadow: 0px 4px 0px #0021D0;
+        }
+        .ml-auto{
+            margin-left: 0!important;
+        }
+        .navbar-brand a span{
+            display: none;
+        }
+        .navbar-light .navbar-brand a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-light .navbar-brand a .close{
+            display: block;
+        }
+        .sign-in button{
+            background:rgb(23,60,255);
+            border-radius: 8px;
+            border:none;
+            color:#fff;
+            font-size: 14px;
+            width: 80vw;
+            height: 55px;
+            margin-right: 20px;
+            margin-left: 20px;
+            box-shadow: 0px 4px 0px #0021D0;
+            }
+}
+@media(min-width:992px) and (max-width:1199px){
+.sign-in button{
+    margin-right: 25px;
+    margin-left: 35px;
+}
+.navbar-light .navbar-brand{
+    margin-left: 25px;
+}
+}
