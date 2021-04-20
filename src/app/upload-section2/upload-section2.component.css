@@ -7,6 +7,7 @@
     padding-right: 140px;
     padding-left: 140px;
     display: flex;
+    transition: all .5s;
     flex-direction: row;
     align-items: center;
     justify-content: center;
