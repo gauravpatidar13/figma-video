@@ -4,12 +4,7 @@
 .active{
     height: 100vh;
 }
-.nav-opened{
-height: 100vh;
-}
-.nav-closed{
-    height: 0;
-}
+
 .navbar-brand a span{
     font-family: 'Zilla Slab', serif;
     font-style: normal;
@@ -36,7 +31,7 @@ height: 100vh;
     font-style: normal;
 font-weight: 600;
 font-size: 14px;
-line-height: 14px;
+line-height: 34px;
 margin-left: 6px;
 margin-right: 6px;
 }
@@ -49,7 +44,7 @@ font-size: 14px;
 width: 195px;
 height: 55px;
 margin-right: 120px;
-margin-left: 87px;
+margin-left: auto;
 margin-top: 0px;
 box-shadow: 0px 4px 0px #0021D0;
 }
@@ -58,9 +53,31 @@ box-shadow: 0px 4px 0px #0021D0;
     #btn{
         display: block;
     }
- 
+    ul{
+        transition: all .3s;
+        left:-100%;
+        top:50px;
+        position: absolute;
+    }
+    #btn,#close{
+        position: absolute;
+        right:30px;
+        top:30px;
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #close{
+        display: block;
+    }
     nav{
-        height: 100vh;
+        height: 0;
         padding-bottom: 85px;
     }
   ul li:first-child{
@@ -75,7 +92,6 @@ box-shadow: 0px 4px 0px #0021D0;
       align-items: center;
       padding-top: 50px;
       width: 100%;
-      display: none;
       padding-bottom: 50px;
     }
     .navbar-nav .nav-item{
@@ -101,7 +117,7 @@ box-shadow: 0px 4px 0px #0021D0;
         font-size: 14px;
         width: 195px;
         height: 55px;
-margin-left: 0;
+margin-left: auto;
 margin-right: 0;
         box-shadow: 0px 4px 0px #0021D0;
         }
@@ -126,11 +142,11 @@ margin-right: 0;
             border:none;
             color:#fff;
             font-size: 14px;
-            margin-top: 35px;
             width: 80vw;
             height: 55px;
             margin-right: 20px;
             margin-left: 20px;
+            margin-top: 35px;
             box-shadow: 0px 4px 0px #0021D0;
             }
 }
@@ -138,8 +154,31 @@ margin-right: 0;
     #btn{
         display: block;
     }
+    ul{
+        transition: all .3s;
+        left:-100%;
+        top:50px;
+        position: absolute;
+    }
+    #btn,#close{
+        position: absolute;
+        right:30px;
+        top:30px;
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #close{
+        display: block;
+    }
     nav{
-        height: 100vh;
+        height: 0;
         padding-bottom: 85px;
     }
   ul li:first-child{
@@ -154,7 +193,6 @@ margin-right: 0;
       align-items: center;
       padding-top: 50px;
       width: 100%;
-      display: none;
       padding-bottom: 50px;
     }
     .navbar-nav .nav-item{
@@ -180,7 +218,7 @@ margin-right: 0;
         font-size: 14px;
         width: 195px;
         height: 55px;
-margin-left: 0;
+margin-left: auto;
 margin-right: 0;
         box-shadow: 0px 4px 0px #0021D0;
         }
@@ -202,7 +240,6 @@ margin-right: 0;
         .sign-in button{
             background:rgb(23,60,255);
             border-radius: 8px;
-            margin-top: 35px;
             border:none;
             color:#fff;
             font-size: 14px;
@@ -210,6 +247,7 @@ margin-right: 0;
             height: 55px;
             margin-right: 20px;
             margin-left: 20px;
+            margin-top: 35px;
             box-shadow: 0px 4px 0px #0021D0;
             }
 }
@@ -281,7 +319,7 @@ margin-right: 0;
         font-size: 14px;
         width: 195px;
         height: 55px;
-margin-left: 0;
+margin-left: auto;
 margin-right: 0;
         box-shadow: 0px 4px 0px #0021D0;
         }
@@ -319,7 +357,7 @@ margin-right: 0;
 .sign-in button{
     margin-right: 25px;
     margin-top: 0;
-    margin-left: 35px;
+    margin-left: auto;
 }
 .navbar-light .navbar-brand{
     margin-left: 25px;
