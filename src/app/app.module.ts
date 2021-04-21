@@ -20,6 +20,7 @@ import { FileManagerComponent } from './file-manager/file-manager.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import {Ng2SearchPipeModule} from 'ng2-search-filter';
 import {FormsModule} from '@angular/forms';
+import {PerfectScrollbarModule} from 'ngx-perfect-scrollbar';
  @NgModule({
    declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent],
    imports: [
@@ -29,7 +30,8 @@ import {FormsModule} from '@angular/forms';
      AppRoutingModule,
      NgxPaginationModule,
      Ng2SearchPipeModule,
-     FormsModule
+     FormsModule,
+     PerfectScrollbarModule
    ],
    bootstrap: [AppComponent],
  })

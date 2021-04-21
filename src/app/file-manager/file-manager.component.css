@@ -1,7 +1,7 @@
 .file-manager{
 display: flex;
 height: 100vh;
-overflow: hidden;
+overflow: auto;
 background:rgb(248,248,248);
 }
 .file-manager .sidebar{
@@ -10,7 +10,7 @@ background:rgb(248,248,248);
     padding-right: 20px;
     width: 240px;
     background:#fff;
-    height: 100%;
+    height: calc(100% - 20px);
     box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
 }
 tr td:first-child{
@@ -36,7 +36,7 @@ span.status{
 }
 .file-manager .sidebar .sidebar-menu{
     margin-top: 50px;
-    height: 100%;
+    height: calc(100% - 110px);
 }
 
 .file-manager-content{
@@ -234,6 +234,7 @@ td img{
 td span.exp{
     margin-right: 25px;
 }
+
 .table-l{
     background-color: #fafafa!important;
     background:#fafafa;
