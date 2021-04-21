@@ -15,14 +15,21 @@ import { KeyFeaturesComponent } from './key-features/key-features.component';
 import { Footer1Component } from './footer1/footer1.component';
 import { SayComponent } from './say/say.component';
 import { PricingComponent } from './pricing/pricing.component';
- 
+import { CustomRadioButtonsComponent } from './custom-radio-buttons/custom-radio-buttons.component';
+import { FileManagerComponent } from './file-manager/file-manager.component';
+import {NgxPaginationModule} from 'ngx-pagination';
+import {Ng2SearchPipeModule} from 'ng2-search-filter';
+import {FormsModule} from '@angular/forms';
  @NgModule({
-   declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent],
+   declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent],
    imports: [
      BrowserModule,
      BrowserAnimationsModule,
      HttpClientModule,
      AppRoutingModule,
+     NgxPaginationModule,
+     Ng2SearchPipeModule,
+     FormsModule
    ],
    bootstrap: [AppComponent],
  })
