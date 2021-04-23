@@ -8,6 +8,10 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'design';
   constructor(private router:Router){
+    let path=localStorage.getItem("path");
+    if(path){
+      this.router.navigate([path])
+    }
   }
   ngOnInit(): void {
    
