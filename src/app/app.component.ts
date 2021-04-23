@@ -10,7 +10,8 @@ export class AppComponent {
   constructor(private router:Router){
     let path=localStorage.getItem("path");
     if(path){
-      this.router.navigate([path])
+      localStorage.removeItem('path')
+      this.router.navigate(["../"+path.split("/")[1]])
     }
   }
   ngOnInit(): void {
