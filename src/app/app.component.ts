@@ -11,7 +11,7 @@ export class AppComponent {
     let path=localStorage.getItem("path");
     if(path){
       localStorage.removeItem('path')
-      console.log(path)
+      console.log(path.split("/")[1])
       this.router.navigate(["../"+path.split("/")[1]])
     }
   }
