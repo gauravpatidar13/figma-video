@@ -21,8 +21,12 @@ import {NgxPaginationModule} from 'ngx-pagination';
 import {Ng2SearchPipeModule} from 'ng2-search-filter';
 import {FormsModule} from '@angular/forms';
 import {PerfectScrollbarModule} from 'ngx-perfect-scrollbar';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { LoginComponent } from './login/login.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
  @NgModule({
-   declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent],
+   declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent, SignUpComponent, LoginComponent, FaqsComponent, ContactUsComponent],
    imports: [
      BrowserModule,
      BrowserAnimationsModule,

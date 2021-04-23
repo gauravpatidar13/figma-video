@@ -1,0 +1,75 @@
+.sign-up-wr{
+    width: 100%;
+   padding-top: 35px;
+   padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#173CFF;
+}
+.sign-up-wr .sign-up{
+    background:#fff;
+    width: 400px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.sign-up-wr .sign-up .lbl{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    font-family: 'Zilla Slab',serif;
+}
+.sign-up-wr .sign-up input[type="text"],.sign-up-wr .sign-up input[type="password"]{
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    height: 45px;
+    width: -webkit-fill-available;
+}
+.fog input[type="checkbox"]{
+    margin-top: 2px;
+}
+.fog{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 18px;
+}
+.fog label{
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.fog span{
+    margin-left: auto;
+    color:blue;
+    font-size: 12px;
+}
+.sign-up-btn{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 60px;
+    color:#fff;
+    border:none;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: calc(100% - 60px);
+    background:#173CFF;
+    font-size: 14px;
+}
+.fot{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 25px;
+}
+.fot label{
+    font-size: 14px;
+}
+.fot label span{
+    color:blue;
+    font-size: 14px;
+}
