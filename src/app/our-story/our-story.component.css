@@ -1,0 +1,52 @@
+.our-story p{
+    font-size: 14px;
+}
+.our-story h2{
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-size: 38px;
+}
+.our-story h2 span{
+    font-family: 'Zilla Slab';
+    color:#ff9900;
+}
+.our-story-wr{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+img{
+    width: 48%;
+    margin-right: 50px;
+}
+.first-office{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-office h1{
+font-family: 'Zilla Slab';
+font-weight: 700;
+font-size: 38px;
+color:#374146;
+}
+.first-office h1 span{
+    color:blue;
+    font-family: 'Zilla Slab';
+}
+.first-office p{
+font-size: 14px;
+    color:#5F7580;
+}
+.first-office .line-blue{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+span.link{
+    cursor: pointer;
+    color:blue;
+    font-size: 14px;
+}

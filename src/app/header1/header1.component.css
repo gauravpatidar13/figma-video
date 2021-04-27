@@ -3,6 +3,8 @@
 }
 .active{
     height: auto;
+      border-bottom: 3px solid #173cff!important;
+      margin-top: 0!important;
 }
 
 .navbar-brand a span{
@@ -88,10 +90,8 @@ box-shadow: 0px 4px 0px #0021D0;
         height: 0;
         padding-bottom: 60px;
     }
-  ul li:first-child{
-      border-bottom: 3px solid #173cff;
-      margin-top: 0;
-  }
+
+
     .navbar{
         flex-direction: row;
         justify-content: center;
@@ -193,10 +193,7 @@ margin-right: 0;
         transition: left .6s;
         padding-bottom: 60px;
     }
-  ul li:first-child{
-      border-bottom: 3px solid #173cff;
-      margin-top: 0;
-  }
+
     .navbar{
         flex-direction: row;
         justify-content: center;

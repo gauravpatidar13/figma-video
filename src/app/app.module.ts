@@ -25,8 +25,17 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { LoginComponent } from './login/login.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FeaturesComponent } from './features/features.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { Common1Component } from './common1/common1.component';
+import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
+import { OurStoryComponent } from './our-story/our-story.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { SupportComponent } from './support/support.component';
+import { SettingsComponent } from './settings/settings.component';
+import {NgApexchartsModule} from 'ng-apexcharts';
  @NgModule({
-   declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent, SignUpComponent, LoginComponent, FaqsComponent, ContactUsComponent],
+   declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent, SignUpComponent, LoginComponent, FaqsComponent, ContactUsComponent, FeaturesComponent, AboutUsComponent, Common1Component, WhatWeDoComponent, OurStoryComponent, DashboardComponent, SupportComponent, SettingsComponent],
    imports: [
      BrowserModule,
      BrowserAnimationsModule,
@@ -35,7 +44,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
      NgxPaginationModule,
      Ng2SearchPipeModule,
      FormsModule,
-     PerfectScrollbarModule
+     PerfectScrollbarModule,
+     NgApexchartsModule
    ],
    bootstrap: [AppComponent],
  })

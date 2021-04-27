@@ -1,0 +1,53 @@
+.card .card-header{
+    font-size: 20px;
+    font-family: 'Noto Sans';
+    color:#171717;
+    padding-top: 30px;
+    padding-bottom: 0px!important;
+    height: auto;
+    font-weight: 700;
+    background:transparent;
+    border:none;
+}
+.card{
+    border:none;
+    margin-bottom: 15px;
+    box-shadow: 0px 10px 30px rgba(135, 141, 166, 0.15);
+  margin:20px;
+}
+.card-body{
+    padding-top: 15px;
+}
+#fg1,#fg2,#fg3,#fg4,#fg5,#fg6,#fg7{
+    display: flex;
+}
+#fg1 button{
+    border:none;
+    background:#173cff;
+    box-shadow: 0px 4px 0px #0021D0;
+border-radius: 8px;
+font-size: 14px;
+font-family: 'Noto Sans';
+color:#fff;
+width: 200px;
+display: block;
+padding-left: 50px;
+padding-right: 50px;
+height: 50px;
+white-space: nowrap;
+}
+#fg1 input.form-control,#fg2 input.form-control,#fg3 input.form-control,
+#fg4 input.form-control,#fg5 input.form-control,#fg6 input.form-control,
+#fg7 input.form-control{
+    width: -webkit-fill-available;
+    margin-right: 15px;
+    border:1px solid #dae3ef;
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    height: 50px;
+}
+
+#fg2 img,#fg3 img,#fg4 img,#fg5 img,#fg6 img ,#fg7 img{
+    height: 50px;
+}

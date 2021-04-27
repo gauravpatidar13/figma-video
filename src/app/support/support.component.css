@@ -1,0 +1,90 @@
+h5{
+    font-size: 20px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color:#171717;
+    border-bottom: 1px solid #ECF0FC;
+padding:15px;
+}
+.touch label,.info label{
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color:#171717;
+    margin-left: 5px;
+}
+.info p{
+    font-size: 14px;
+    color:#5F7580;
+}
+.info .link{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+
+.link i{
+    margin-right: 15px;
+    color:#5F7580;
+}
+.link span{
+    text-decoration: underline;
+    font-size: 14px;
+    color:#173cff;
+}
+
+
+.form-group:first-child{
+    display: flex;
+}
+input{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    height: 40px;
+    font-weight: 300;
+    color:#262a2d;
+}
+textarea{
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    color:#262a2d;
+    margin-left: 5px;
+    height: 150px;
+    width: -webkit-fill-available;
+    margin-right: 5px;
+}
+.btn-blue-send{
+    background:#173cff;
+    box-shadow: 0px 4px 0px #0021D0;
+border-radius: 8px;
+color:#fff;
+border:none;
+font-size: 14px;
+width: 250px;
+margin-bottom: 20px;
+height: 60px;
+margin-left: 5px;
+}
+.social-links{
+    display: flex;
+    margin-top: 30px;
+}
+.social-links .circle{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    border-color:#5F7580;
+}
+.social-links .circle i{
+    color:#5f7580;
+
+}

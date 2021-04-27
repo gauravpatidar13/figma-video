@@ -1,3 +1,6 @@
+label span{
+    cursor:pointer;
+}
 .sign-up-wr{
     width: 100%;
    padding-top: 35px;
@@ -14,11 +17,9 @@
     padding-bottom: 45px;
 }
 .sign-up-wr .sign-up .lbl{
-    text-align: center;
-    font-size: 34px;
-    margin-left: 50%;
+    font-size: 30px;
     font-weight: 700;
-    transform: translate(-50%,0);
+    margin-left: 30px;
     font-family: 'Zilla Slab',serif;
 }
 .sign-up-wr .sign-up input[type="text"],.sign-up-wr .sign-up input[type="password"]{

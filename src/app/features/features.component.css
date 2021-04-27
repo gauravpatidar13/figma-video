@@ -1,0 +1,83 @@
+.features-header h2#fh span{
+color:rgb(255, 153, 0);
+font-family: 'Zilla Slab';
+}
+.features-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features-header h2#fh{
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+}
+.line-orange{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.features-header p{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 100px;
+margin-right: 100px;
+line-height: 24px;
+}
+.features{
+    display: flex;
+  flex-direction: column;
+}
+.features .feature1{
+border-radius: 8px;
+background:#fff9ef;
+height: auto;
+padding: 15px;
+flex-basis: 48%;
+margin-right: 8px;
+margin-left: 8px;
+margin-bottom: 15px;
+}
+.feature1 p{
+    font-size: 14px;
+}
+.feature2 p{
+    font-size: 14px;
+}
+.features .feature1 h4{
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-size: 24px;
+    color:#312E2B;
+}
+.features .feature1 h4 span{
+color:#ff9900;
+font-family: 'Zilla Slab';
+}
+.features .feature2{
+    background:#F5F7FF;
+    border-radius: 8px;
+    height: auto;
+    flex-basis: 48%;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding:15px;
+    margin-bottom: 15px;
+}
+.features .feature2 h4{
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-size: 24px;
+    color:#312E2B;
+}
+.features .feature2 h4 span{
+color:#173cff;
+font-family: 'Zilla Slab';
+}
+.line-blue{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

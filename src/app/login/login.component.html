@@ -2,14 +2,15 @@
 <div class="sign-up-wr">
 <div class="sign-up">
     <form>
-        <label class="lbl">Create Account</label>
+        <label class="lbl">Sign In</label>
         <input class="form-control" type="text" placeholder="Your email">
-        <input class="form-control" type="password" placeholder="Password">
-        <input class="form-control" type="password" placeholder="Confirm password">
-        
-        <button class="sign-up-btn">Sign Up</button>
+        <input class="form-control" type="password" placeholder="Your password">
+        <div class="fog">
+            <input type="checkbox"><label>Remember Me</label><span>Forgot your password?</span>
+        </div>
+        <button class="sign-up-btn">Sign In</button>
         <div class="fot">
-        <label>If you have an account,<span> Sign in</span></label>
+        <label>If your don't have an account,<span routerLink="/sign-up"> create one</span></label>
     </div>
     </form>
 </div>

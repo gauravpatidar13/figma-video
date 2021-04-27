@@ -1,0 +1,116 @@
+.upload-video-btn{
+    background:#173CFF;
+    color:#fff;
+    width: 225px;
+    height: 55px;
+    border:none;
+    border-radius: 8px;
+    font-size: 14px!important;
+    font-family: 'Noto Sans', sans-serif!important;
+}
+.upload-header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
+}
+.upload-video-btn img{
+    margin-right: 15px;
+}
+.dropdown-menu{
+    width: min-content;
+    margin:0;padding:0;
+    min-width: 100px;
+    right:100px;
+}
+a.dropdown-item{
+    font-size: 14px;
+  padding:5px;
+}
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-content: space-between;
+padding:20px;
+margin-top: 10px;
+margin-bottom: 10px;
+box-shadow: 0px 6px 8px rgba(48, 62, 98, 0.13);
+border-radius: 6px;
+}
+.user{
+    border:none;
+    background:transparent;
+    font-size: 14px;
+    color:#495E76;
+}
+.user img{
+    margin-left: 12px;
+}
+.dashboard{
+ padding:15px;
+}
+.dashboard h5{
+    font-family: "Noto Sans";
+    font-weight: 700;
+    font-size: 20px;
+    color:#312e2b;
+}
+.card h6{
+    font-size: 24px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    color: #495e76;
+}
+.card p{
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    color:#495e76;
+}
+.btn-blue{
+    background:#173cff;
+    box-shadow: 0px 4px 0px #0021D0;
+border-radius: 8px;
+border:none;
+width: 300px;
+height: 60px;
+font-family: 'Noto Sans';
+font-weight: 700;
+color:#fff;
+font-size: 14px;
+}
+.btn-blue1{
+    background:#7735FF;
+    box-shadow: 0px 4px 0px #5826C0;
+border-radius: 8px;
+border:none;
+width: 300px;
+height: 60px;
+font-family: 'Noto Sans';
+font-weight: 700;
+color:#fff;
+font-size: 14px;
+}
+.btn-orange{
+    background:#ff9900;
+    box-shadow: 0px 4px 0px #9B7336;
+border-radius: 8px;
+border:none;
+width: 300px;
+height: 60px;
+font-family: 'Noto Sans';
+font-weight: 700;
+color:#fff;
+font-size: 14px;
+}
