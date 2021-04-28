@@ -71,7 +71,6 @@ margin-left: 5px;
 .social-links{
     display: flex;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 .social-links .circle{
     border-radius: 50%;

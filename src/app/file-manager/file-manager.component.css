@@ -5,11 +5,23 @@ tr td:first-child{
 tr th:first-child{
     padding-left: 25px;
 }
-
+.file-manager .sidebar span{
+    margin-left: 10px;
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #495E76;
+}
 span.status{
     font-family: 'Noto Sans', sans-serif!important;
     font-size: 12px;
     line-height: 16px;
+}
+.file-manager .sidebar .sidebar-menu{
+    margin-top: 50px;
+    height: calc(100% - 110px);
 }
 
 .file-manager-content{
@@ -24,7 +36,15 @@ span.status{
     box-shadow: 0px 10px 30px 0px #878DA626;
 }
 
-
+.menu-item span{
+    font-size: 14px!important;
+    font-family: 'Noto Sans', sans-serif!important;
+}
+.menu-item{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .file-upload-header{
     padding-top: 10px;
     padding-left: 20px;
