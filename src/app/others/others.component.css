@@ -38,3 +38,14 @@
     cursor: pointer;
     padding-bottom: 10px;
 }
+@media (max-width:567px){
+    .menu-item span{
+        font-size: 14px!important;
+        font-family: 'Noto Sans', sans-serif!important;
+        display: none;
+    }  
+    .menu-item{
+        width: fit-content;
+        padding-right: 15px;
+    } 
+}

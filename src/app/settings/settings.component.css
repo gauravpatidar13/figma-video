@@ -64,6 +64,9 @@ white-space: nowrap;
         justify-content: space-between;
         height: 300px;
     }
+    .card{
+    width: fit-content;
+    }
 }
 @media (min-width:568px) and (max-width:991px){
     #fg1{
