@@ -1,0 +1,40 @@
+.active{
+    background:blue;
+ cursor: pointer;
+    border-radius: 20px;
+}
+.active span{
+    color:#fff!important;
+}
+.sidebar{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 240px;
+    background:#fff;
+    height: calc(100% - 20px);
+    box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
+}
+.sidebar span{
+    margin-left: 10px;
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #495E76;
+}
+.sidebar .sidebar-menu{
+    margin-top: 50px;
+    height: calc(100% - 110px);
+}
+.menu-item span{
+    font-size: 14px!important;
+    font-family: 'Noto Sans', sans-serif!important;
+}
+.menu-item{
+    padding-left: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}

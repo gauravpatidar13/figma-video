@@ -4,15 +4,7 @@ height: 100vh;
 /* overflow: auto; */
 background:rgb(248,248,248);
 }
-.file-manager .sidebar{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 240px;
-    background:#fff;
-    height: calc(100% - 20px);
-    box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
-}
+
 tr td:first-child{
     padding-left: 25px;
 } 
@@ -20,23 +12,11 @@ tr td:first-child{
 tr th:first-child{
     padding-left: 25px;
 }
-.file-manager .sidebar span{
-    margin-left: 10px;
-    font-family: 'Zilla Slab', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 34px;
-    color: #495E76;
-}
+
 span.status{
     font-family: 'Noto Sans', sans-serif!important;
     font-size: 12px;
     line-height: 16px;
-}
-.file-manager .sidebar .sidebar-menu{
-    margin-top: 50px;
-    height: calc(100% - 110px);
 }
 
 .file-manager-content{
@@ -51,15 +31,7 @@ span.status{
     box-shadow: 0px 10px 30px 0px #878DA626;
 }
 
-.menu-item span{
-    font-size: 14px!important;
-    font-family: 'Noto Sans', sans-serif!important;
-}
-.menu-item{
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 .file-upload-header{
     padding-top: 10px;
     padding-left: 20px;
