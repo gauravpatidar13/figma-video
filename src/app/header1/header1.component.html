@@ -10,37 +10,37 @@
         <img class="close" src="assets/images/close.png" id="close">
     </label>
     <ul class="navbar-nav ml-auto custom" id="nav1">
-        <li class="nav-item">
+        <li class="nav-item" (click)="closeNavMenu()">
             <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="">
                 Home
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="closeNavMenu()">
             <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="/about-us">
                 About Us
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="closeNavMenu()">
             <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="/features">
                 Features
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="closeNavMenu()">
             <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="/faqs">
                 FAQ
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="closeNavMenu()">
             <a class="nav-link" [routerLinkActiveOptions]="{exact:true}"  routerLinkActive="active" routerLink="../pricing">
                 Pricing
             </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="closeNavMenu()">
             <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="../contact-us">
                 Contact Us
             </a>
         </li>
-        <div class="sign-in" routerLink="../login">
+        <div class="sign-in" (click)="closeNavMenu()" routerLink="../login">
             <button>Sign in</button>
         </div>
     </ul>

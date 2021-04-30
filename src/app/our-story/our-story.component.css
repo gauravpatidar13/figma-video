@@ -31,6 +31,7 @@ img{
 font-family: 'Zilla Slab';
 font-weight: 700;
 font-size: 38px;
+text-align: center;
 color:#374146;
 }
 .first-office h1 span{
@@ -49,4 +50,15 @@ span.link{
     cursor: pointer;
     color:blue;
     font-size: 14px;
+}
+
+@media(max-width:768px){
+    .our-story-wr{
+        flex-wrap: wrap-reverse;
+    }
+    img{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 30px;
+    }
 }

@@ -21,6 +21,7 @@
     font-size: 16px;
     margin-left: 150px;
     margin-right: 150px;
+    padding-bottom: 30px;
     text-align: center;
 }
 .faq{
@@ -48,9 +49,7 @@ h4.panel-title{
     transition: all .4s;
 }
 .panel-collapse.in.collapse.show ~ .panel-heading .panel-title img  {
-  content:url("/assets/images/close-circle.png"); 
-  position: relative;
-  left:8px;
+  content:url("/assets/images/remove-circle.png"); 
 }
 
 .panel-title a + img{
@@ -72,4 +71,13 @@ h4.panel-title{
     font-size: 14px;
     color:#5F7580;
     padding-top: 15px;
+}
+
+@media (max-width:567px){
+    .faq h1{
+        margin:0 30px;
+    }
+    .faq p{
+        margin:0 30px;
+    }
 }
