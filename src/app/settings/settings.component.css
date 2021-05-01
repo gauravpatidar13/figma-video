@@ -18,10 +18,10 @@
 .card-body{
     padding-top: 15px;
 }
-#fg1,#fg2,#fg3,#fg4,#fg5,#fg6,#fg7{
+#fg1,#fg2,#fg3,#fg4,#fg5,#fg6,#fg7,#fg{
     display: flex;
 }
-#fg1 button{
+#fg1 button,#fg button{
     border:none;
     background:#173cff;
     box-shadow: 0px 4px 0px #0021D0;
@@ -38,7 +38,7 @@ white-space: nowrap;
 }
 #fg1 input.form-control,#fg2 input.form-control,#fg3 input.form-control,
 #fg4 input.form-control,#fg5 input.form-control,#fg6 input.form-control,
-#fg7 input.form-control{
+#fg7 input.form-control,#fg input.form-control{
     width: -webkit-fill-available;
     margin-right: 15px;
     border:1px solid #dae3ef;
