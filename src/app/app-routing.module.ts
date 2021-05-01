@@ -15,11 +15,13 @@ import {SupportComponent} from './support/support.component';
 import {SettingsComponent} from './settings/settings.component';
 import { StaticsComponent } from './statics/statics.component';
 import {OthersComponent} from './others/others.component';
+import {UploadVideoComponent} from './upload-video/upload-video.component'
 const routes: Routes = [
  {path:'',component:HomepageComponent,pathMatch:'full'},
  {path:'others',component:OthersComponent,children:[
    {path:'',redirectTo:'file-manager',pathMatch:'full'},
    {path:'file-manager',component:FileManagerComponent},
+   {path:'upload-video',component:UploadVideoComponent},
    {path:'dashboard',component:DashboardComponent},
    {path:'statics',component:StaticsComponent},
    {path:'settings',component:SettingsComponent},
