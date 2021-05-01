@@ -14,20 +14,13 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import {SupportComponent} from './support/support.component';
 import {SettingsComponent} from './settings/settings.component';
 import { StaticsComponent } from './statics/statics.component';
-import { OthersComponent } from './others/others.component';
 const routes: Routes = [
  {path:'',component:HomepageComponent,pathMatch:'full'},
+ {path:'file-manager',component:FileManagerComponent},
  {path:'statics',component:StaticsComponent},
  {path:'settings',component:SettingsComponent},
  {path:'support',component:SupportComponent},
- {path:'others',component:OthersComponent,children:[
-   {path:'',redirectTo:'file-manager',pathMatch:'full'},
-   {path:'file-manager',component:FileManagerComponent},
-   {path:'dashboard',component:DashboardComponent},
-   {path:'statics',component:StaticsComponent},
-   {path:'settings',component:SettingsComponent},
-   {path:'support',component:SupportComponent}
- ]},
+ {path:'dashboard',component:DashboardComponent},
  {path:'pricing',component:PricingComponent},
  {path:'features',component:FeaturesComponent},
  {path:'about-us',component:AboutUsComponent},
