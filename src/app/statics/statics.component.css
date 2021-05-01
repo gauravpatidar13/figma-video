@@ -1,4 +1,16 @@
-
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    min-width: 340px;
+    padding-bottom: 8px;
+    box-shadow: 8px 0px 8px rgba(48, 62, 98, 0.13);
+}
+.dummy{
+    height: 50px;
+}
 .chart-title{
     padding-left: 40px;
     padding-top: 20px;

@@ -11,11 +11,20 @@ span.status{
     font-size: 12px;
     line-height: 16px;
 }
+.file-upload-header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    min-width: 340px;
+    padding-bottom: 8px;
+    box-shadow: 8px 0px 8px rgba(48, 62, 98, 0.13);
+}
 
 .file-manager-content{
-    flex-grow: 1;
     height: calc(100% - 115px);
-    margin:20px;
+    margin:15px;
     border:1px solid #ffffff;
     border-radius: 6px;
      background:#fff; 
@@ -24,20 +33,6 @@ span.status{
     box-shadow: 0px 10px 30px 0px #878DA626;
 }
 
-
-.file-upload-header{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    width: 100%;
-    display: flex;
-    background:#fff;
-    justify-content: space-between;
-    box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
-}
-.content{
-    flex-grow: 1;
-}
 .upload-video-btn{
     background:#173CFF;
     color:#fff;
@@ -237,18 +232,5 @@ td span.exp{
     flex-direction: column;
     box-shadow: 0px 10px 30px 0px #878DA626;
 }
-.file-manager .sidebar{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 240px;
-     background:#fff; 
-    height: 150vh;
-    box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
-}   
-.file-manager{
-    display: flex;
-    height: auto;
-    background:rgb(248,248,248);
-    }
+
 }

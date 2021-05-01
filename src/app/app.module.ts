@@ -36,8 +36,10 @@ import { SettingsComponent } from './settings/settings.component';
 import {NgApexchartsModule} from 'ng-apexcharts';
 import {OthersComponent} from './others/others.component';
 import { UploadVideoComponent } from './upload-video/upload-video.component';
+import { UserComponent } from './user/user.component';
+import {StaticsComponent} from './statics/statics.component';
  @NgModule({
-   declarations: [AppComponent, HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent, SignUpComponent, LoginComponent, FaqsComponent, ContactUsComponent, FeaturesComponent, AboutUsComponent, Common1Component, WhatWeDoComponent, OurStoryComponent, DashboardComponent, SupportComponent, SettingsComponent,OthersComponent, UploadVideoComponent],
+   declarations: [AppComponent, StaticsComponent,HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent, SignUpComponent, LoginComponent, FaqsComponent, ContactUsComponent, FeaturesComponent, AboutUsComponent, Common1Component, WhatWeDoComponent, OurStoryComponent, DashboardComponent, SupportComponent, SettingsComponent,OthersComponent, UploadVideoComponent, UserComponent],
    imports: [
      BrowserModule,
      BrowserAnimationsModule,
