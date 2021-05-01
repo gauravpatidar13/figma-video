@@ -16,8 +16,6 @@ export enum MENU{
 export class OthersComponent implements OnInit {
   menu:MENU;
   constructor() { 
-    this.menu=0;
-    console.log(this.menu)
   }
   setMenu(item){
 this.menu=item;

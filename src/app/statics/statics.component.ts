@@ -27,29 +27,100 @@ public chartOptions;
 
   ngOnInit(): void {
     this.chartOptions=this.chartOptions = {
+        show:false,
+        points:{
+          marker:{
+            x:"X",
+            y:"y",
+            size:8
+          }
+          ,label:{
+            borderColor:"#f00",
+            text:"point"
+          }
+        },
+        tooltip:{
+        custom:[function({series,seriesIndex,dataPointIndex,w}){
+        
+          return `<div class="box" style="color:#000;padding:5px 8px">${series[seriesIndex][dataPointIndex]}</div>`;
+            },function({series,seriesIndex,dataPointIndex,w}){
+             
+              return `<div class="arrow_box" style="color:#000;padding:5px 8px">${series[seriesIndex][dataPointIndex]}</div>`;
+                }]}
+                ,
+      stroke:{
+        show:true,
+        curver:'smooth',
+        width:2
+      },
       colors:["#173cff","#bebebe"],
       series: [
         {
-          name: "SERIES A",
-          data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+          name: "",
+          data: [10, 41, 35, 51, 49, 62, 69, 91, 18]
         },
         {
-          name: "Series B",
+          name: "",
           data: [70, 61, 6, 71, 9, 42, 39, 21, 48]
         }
       ],
       chart: {
+        toolbar:{show:false},
         height: 350,
         type: "area",
         
       },
       title: {
-        text: "My First Angular Chart"
+        text: ""
       },
       xaxis: {
-        categories: ["Jan", "Feb",  "Mar",  "Apr",  "May",  "Jun",  "Jul",  "Aug", "Sep"]
+        tooltip:{
+enabled:false
+        },
+        categories: ["0", "1",  "2",  "3",  "4",  "5",  "6",  "7", "8"],
+     labels:{
+       show:true
+     }
       },
-      
+      yaxis:{
+tooltip:{
+  enabled:false,
+},
+labels:{
+  show:false
+}
+      },
+      grid:{
+        position:"front",
+        show:true,
+        xaxis:{
+          lines:{
+            show:false
+          }
+        },
+        yaxis:{
+          lines:{
+            show:true
+          }
+        }
+      },
+      markers:{
+        size:[0,0],
+        enabled:false,
+        show:false,
+        shape:"circle",
+        discrete:[],
+      }
+      ,
+      toolbar:{
+        show:false
+      },
+      dataLabels:{
+        enabled:false
+      }
+     ,legend:{
+       show:false
+     }
     };
 
     var chart = new ApexCharts(document.querySelector("#chart"), this.chartOptions);
