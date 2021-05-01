@@ -53,8 +53,12 @@ color: #312E2B;
     margin-right: 5px;
     background:rgb(255,249,239)
 }
+.carousel-item.active{
+    border-bottom: none!important;
+}
 span.active{
     background:#FF9900!important;
+    border-bottom: none!important;
 }
 .quote-user-text p{
     color:rgb(136, 0, 21);
@@ -69,7 +73,7 @@ span.active{
 }
 .quote-text .quote-icon-wr{
     position: absolute;
-    left: 48%;
+    left: calc(50% - 50px);
     top: -12px;
     width: 100px;
     padding-left: 10px;
@@ -84,18 +88,7 @@ span.active{
     .say{
         height: auto;
     }
-    .quote-text .quote-icon-wr{
-        position: absolute;
-        left: 40%;
-        top: -12px;
-        width: 100px;
-        padding-left: 10px;
-        padding-right: 10px;
-        justify-content: space-between;
-        display: flex;
-        flex-direction: row;
-        background: rgb(255, 249, 239);
-    }
+
     .quote .quote-text{
         width: 100%;
         padding-top: 67px;

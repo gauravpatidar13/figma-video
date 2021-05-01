@@ -15,6 +15,7 @@ font-family: 'Zilla Slab';
     font-weight: 700;
     font-size: 38px;
     text-align: center;
+    padding:0 15px;
 }
 .line-orange{
     margin-top: 30px;
@@ -80,4 +81,13 @@ font-family: 'Zilla Slab';
 .line-blue{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+@media (max-width:567px){
+    .features-header p{
+        font-size: 16px;
+        text-align: center;
+      margin:0 30px;
+    line-height: 24px;
+    }
 }
