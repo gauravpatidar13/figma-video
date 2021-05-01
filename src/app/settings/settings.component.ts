@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SidebarService } from '../sidebar.service';
 
 @Component({
   selector: 'app-settings',
@@ -6,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./settings.component.css']
 })
 export class SettingsComponent implements OnInit {
-
-  constructor() { }
-
+  constructor(private ss:SidebarService) { }
   ngOnInit(): void {
   }
-
+  openSidebar(){
+this.ss.openSidebar(true);
+  }
 }

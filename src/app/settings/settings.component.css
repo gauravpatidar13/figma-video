@@ -1,6 +1,7 @@
 .header-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 8px;
@@ -8,9 +9,22 @@
     padding-bottom: 8px;
     box-shadow: 8px 0px 8px rgba(48, 62, 98, 0.13);
 }
+.other-top-header{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload-video-btn{
+    display: none;
+}
+.menu-mobile-header{
+    display: none;
+}
 .dummy{
     height: 50px;
 }
+
 .card .card-header{
     font-size: 20px;
     font-family: 'Noto Sans';
@@ -21,6 +35,9 @@
     font-weight: 700;
     background:transparent;
     border:none;
+}
+.upload-video-btn img{
+    margin-right: 15px;
 }
 .card{
     border:none;
@@ -64,6 +81,15 @@ white-space: nowrap;
     height: 50px;
 }
 @media (max-width:567px){
+    .other-top-header{
+        display: none;
+    }
+  .menu-mobile-header{
+      display: flex;
+      flex-grow: 1;
+      justify-content: space-between;
+      align-items: center;
+  }
     #fg1{
         display: flex;
         flex-direction: column;
@@ -82,6 +108,13 @@ white-space: nowrap;
     }
     #fg input.form-control{
         margin-right: 0;
+    }
+    .upload-video-btn{
+        display: block;
+        float: right;
+    }
+    .header-top{
+        margin-top: -20px;
     }
 }
 @media (min-width:568px) and (max-width:767px){

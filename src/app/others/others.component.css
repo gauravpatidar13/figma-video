@@ -1,3 +1,22 @@
+.others-wr{
+    display: flex;
+}
+.opened-sidenav{
+    width: 80%!important;
+    display: flex!important;
+    transition: all .5s;
+}
+.closed-sidenav{
+    width: 0!important;
+    display: none!important;
+    transition: all .5s;
+}
+.opened-mobile{
+    display: flex!important;
+}
+.closed-mobile{
+    display: none!important;
+}
 .active{
     background:blue;
  cursor: pointer;
@@ -12,6 +31,7 @@
     padding-right: 20px;
     min-width: 290px;
     height: 1000px;
+    transition: all .5s;
     background:#fff;
     height: calc(100% - 20px);
     box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
@@ -39,14 +59,69 @@
     cursor: pointer;
     padding-bottom: 10px;
 }
+.header-mobile{
+    display: none;
+}
+.header-mobile .upload-video-btn{
+    background: #173CFF;
+box-shadow: 0px 3.62667px 0px #0021D0;
+border-radius: 7.25333px;
+color:#fff;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+width: 250px;
+height: 50px;
+border:none;
+line-height: 19px;
+}
+.header-mobile .upload-video-btn img{
+    margin-right: 15px;
+}
+.user-mobile{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    margin-left: 30px;
+}
+
 @media (max-width:567px){
-    .menu-item span{
-        font-size: 14px!important;
-        font-family: 'Noto Sans', sans-serif!important;
-        display: none;
-    }  
+    .header-mobile{
+       display: flex;
+       justify-content: space-between;
+       width: 80%;
+       background: #fff;
+       flex-wrap: wrap;
+       display: none;
+       align-items: center;
+       padding:10px 20px;
+   }
+   .sidebar{
+       width: 80%;
+       height: 100vh;
+       display: none;
+       padding-bottom: 50px;
+       box-shadow: 0px 0px 8px rgba(48, 62, 98, 0.13);
+   } 
+   .sidebar .sidebar-menu{
+       margin-top: 0;
+   }
+   .sidebar .brand{
+     display: none;
+   }
     .menu-item{
-        width: fit-content;
         padding-right: 15px;
     } 
+   #content-others{
+       position: absolute;
+       left: 0;
+       top:20px;
+       z-index: -10;
+   }
+.others-wr{
+    flex-direction: column;
+    position: relative;
+}
 }

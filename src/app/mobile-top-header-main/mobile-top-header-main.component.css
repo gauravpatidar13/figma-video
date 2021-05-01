@@ -1,0 +1,25 @@
+.common-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    min-width: 340px;
+    padding-bottom: 8px;
+    box-shadow: 8px 0px 8px rgba(48, 62, 98, 0.13);
+}
+.menu{
+    display: none;
+}
+@media (max-width:567px){
+    .common-header{
+        margin-top: -20px;
+    }
+    .menu{
+        display:block;
+    }
+    .common-header app-user{
+        display: none;
+    }
+}

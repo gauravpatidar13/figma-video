@@ -38,8 +38,10 @@ import {OthersComponent} from './others/others.component';
 import { UploadVideoComponent } from './upload-video/upload-video.component';
 import { UserComponent } from './user/user.component';
 import {StaticsComponent} from './statics/statics.component';
+import { MobileTopHeaderComponent } from './mobile-top-header/mobile-top-header.component';
+import { MobileTopHeaderMainComponent } from './mobile-top-header-main/mobile-top-header-main.component';
  @NgModule({
-   declarations: [AppComponent, StaticsComponent,HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent, SignUpComponent, LoginComponent, FaqsComponent, ContactUsComponent, FeaturesComponent, AboutUsComponent, Common1Component, WhatWeDoComponent, OurStoryComponent, DashboardComponent, SupportComponent, SettingsComponent,OthersComponent, UploadVideoComponent, UserComponent],
+   declarations: [AppComponent, StaticsComponent,HomepageComponent, Header1Component, UploadSection2Component, ViaApiComponent, AnyDeviceComponent, WebPlayerComponent, TimeBasedComponent, KeyFeaturesComponent, Footer1Component, SayComponent, PricingComponent, CustomRadioButtonsComponent, FileManagerComponent, SignUpComponent, LoginComponent, FaqsComponent, ContactUsComponent, FeaturesComponent, AboutUsComponent, Common1Component, WhatWeDoComponent, OurStoryComponent, DashboardComponent, SupportComponent, SettingsComponent,OthersComponent, UploadVideoComponent, UserComponent, MobileTopHeaderComponent, MobileTopHeaderMainComponent],
    imports: [
      BrowserModule,
      BrowserAnimationsModule,
