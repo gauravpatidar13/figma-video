@@ -1,3 +1,8 @@
-<app-header1></app-header1>
-<router-outlet></router-outlet>
-<app-footer1></app-footer1>
+<div *ngIf="!route?.includes('/others')">
+    <app-header1></app-header1>
+    <router-outlet></router-outlet>
+    <app-footer1></app-footer1>
+</div>
+<div *ngIf="route?.includes('/others')">
+    <router-outlet></router-outlet>
+</div>
