@@ -8,7 +8,15 @@ declare var $:any;
 export class Header1Component implements OnInit {
 
   constructor() { }
+  closeNavMenu(){
+   if($('#check').is(':checked')){
 
+   $("nav").toggleClass("active");
+    $("#check").prop('checked',false);
+  $("#nav1").addClass("tricky");
+   }
+  
+  }
   ngOnInit(): void {
   $("#btn").click(function(){
 $("nav").toggleClass("active");

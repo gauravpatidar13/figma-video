@@ -28,3 +28,13 @@ font-size: 14px;
 .do-list .do-item img{
     margin-right: 15px;
 }
+
+@media (max-width:768px){
+    .what-we-do-wr{
+        flex-wrap: wrap;
+    }
+    .what-we-do-wr img.code{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
