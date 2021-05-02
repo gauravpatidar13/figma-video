@@ -21,7 +21,12 @@ span.status{
     padding-bottom: 8px;
     box-shadow: 8px 0px 8px rgba(48, 62, 98, 0.13);
 }
-
+.actions-wr{
+    display: flex;
+}
+.actions-wr .ic-wr:first-child{
+margin-right: 15px;
+}
 .file-manager-content{
     height: calc(100% - 115px);
     margin:15px;
@@ -194,9 +199,7 @@ td,td span{
 td img{
     margin-right: 10px;
 }
-td span.exp{
-    margin-right: 25px;
-}
+
 
 .table-l{
     background-color: #fafafa!important;
@@ -221,13 +224,36 @@ td span.exp{
 }
 
 @media (max-width:767px){
+    ol{
+        margin-left: 18px;
+    }
     .add-folder-btn{
         display: none;
+    }
+    .file-manager-table{
+        margin-right: 10px;
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+    .ic-wr{
+        padding:1px;
+    }
+    .actions-wr{
+       display: flex;
     }
     .search-wr{
         display: none;
     }
-  
+ .file-manager-content-header span{
+     margin-left: 0;
+ }
+    .my-pagination /deep/ .ngx-pagination{
+       
+        width: auto;
+         float:right; 
+           margin-right: 10px;
+           margin-left: 10px;
+    } 
     .table{
         width: 100%!important;
         border-collapse: collapse!important;
@@ -264,6 +290,9 @@ td span.exp{
      tr{
          border-bottom: 1px solid #e3e5e8;
      }
+     .ic-wr img{
+         margin-right: 5px;
+     }
      tr:last-child{
          border-bottom: none;
      }
@@ -272,6 +301,9 @@ td span.exp{
      }
      tr td:first-child{
          padding-left: 35%;
+     }
+     .file-manager-content-header{
+         align-items: baseline;
      }
 }
 @media(max-width:1365px){

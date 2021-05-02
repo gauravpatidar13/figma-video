@@ -119,7 +119,7 @@ font-weight: 700;
 color:#fff;
 font-size: 14px;
 }
-@media (max-width:567px){
+@media (max-width:767px){
     .card{
         width: auto;
         margin-right: 0;
@@ -130,7 +130,26 @@ font-size: 14px;
     .container-fluid{
         width: 100%;
     }
+    .mc{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .card#doc .card1{
+        margin-top: 50px;
+    } 
+    .card#doc .card1#first{
+        margin-top: 0;
+    }
 }
+@media (min-width:768px) and (max-width:1366px){
+    .card#doc .card1{
+        margin-top: 0;
+    }  
+    .card#doc .card1#last{
+        margin-top: 50px;
+    }
+}
+
 @media (min-width:568px){
     .container-fluid{
         width: -webkit-fill-available;

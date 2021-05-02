@@ -89,8 +89,14 @@ white-space: nowrap;
         display: block;
         float: right;
     }
+    .card-header{
+        padding:1rem
+    }
     .header-top{
         margin-top: -20px;
+    }
+    .card-body{
+        padding:1rem;
     }
 }
 @media (min-width:568px) and (max-width:767px){

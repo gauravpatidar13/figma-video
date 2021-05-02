@@ -38,8 +38,15 @@
                     <td data-label="status"><span class="status" [class.green]="!file.flag"
                             [class.orange]="file.flag">{{file.status}}</span></td>
                     <td data-label="created at">{{file.createdAt}}</td>
-                    <td data-label="actions"><span class="exp"><img src="/assets/images/export.png">Export</span>
-                        <span><img src="/assets/images/delete.png">Delete</span>
+                    <td data-label="actions">
+                        <div class="actions-wr">
+                            <div class="ic-wr">    
+                                <img src="/assets/images/export.png"> <span class="exp">Export</span>
+                    </div>
+                    <div class="ic-wr">
+                        <img src="/assets/images/delete.png"><span class="del">Delete</span>
+                    </div>
+                    </div>
                     </td>
                 </tr>
             </tbody>
