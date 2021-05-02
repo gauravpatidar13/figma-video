@@ -34,9 +34,8 @@ if($("#sidenavId").hasClass("opened-sidenav")&&$(".header-mobile").hasClass("ope
     this.ss.subject.subscribe(value=>{
       
       if(value=="open sidebar"){
-        alert($(document).height())
         $("#sidenavId").addClass("opened-sidenav")
-        $("#sidenavId").css({height:$(document).height()})
+        $("#sidenavId").css({height:$(document).height()-125})
         $("#sidenavId").removeClass("closed-sidenav")
         $(".header-mobile").addClass("opened-mobile")
         $(".header-mobile").removeClass("closed-mobile")
