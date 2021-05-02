@@ -1,23 +1,23 @@
 <app-mobile-top-header-main></app-mobile-top-header-main>
 <div class="file-manager-content">
-<div class="file-manager-content-header">
-    <div class="d-flex flex-row justify-content-start">
-    <span>File Manager</span>
-    <ol class="breadcrumb">
-        <li><a href="#">Root</a></li>
-        <li><a href="#">New Folder</a></li>
-       
-      </ol>
-      <button class="add-folder-btn">Add Folder</button>
+    <div class="file-manager-content-header">
+        <div class="d-flex flex-row justify-content-start">
+            <span>File Manager</span>
+            <ol class="breadcrumb">
+                <li><a href="#">Root</a></li>
+                <li><a href="#">New Folder</a></li>
+
+            </ol>
+            <button class="add-folder-btn">Add Folder</button>
+        </div>
+        <div class="search-wr">
+            <input type="text" placeholder="Search your video files" [(ngModel)]="term">
+            <img src="/assets/images/search.png">
+        </div>
     </div>
-    <div class="search-wr">
-        <input type="text" placeholder="Search your video files" [(ngModel)]="term">
-        <img src="/assets/images/search.png">
-    </div>
-</div>
-<div class="file-manager-table">
-    <table class="table">
-        
+    <div class="file-manager-table">
+        <table class="table">
+
             <thead class="thead-light">
                 <tr>
                     <th>name</th>
@@ -27,22 +27,24 @@
                     <th>created at</th>
                     <th>actions</th>
                 </tr>
-               
+
             </thead>
-           <tbody>
-               <tr *ngFor="let file of files | paginate:{itemsPerPage:5,currentPage:p} | filter:term" [class.table-l]="file.flag">
-                   <td data-label="name">{{file.name}}</td>
-                   <td data-label="size">{{file.size}}</td>
-                   <td data-label="views">{{file.views}}</td>
-                   <td data-label="status"><span class="status" [class.green]="!file.flag" [class.orange]="file.flag">{{file.status}}</span></td>
-                   <td data-label="created at">{{file.createdAt}}</td>
-                   <td data-label="actions"><span class="exp"><img src="/assets/images/export.png">Export</span>
-                    <span><img src="/assets/images/delete.png">Delete</span>
-                </td>
-               </tr>
-           </tbody>
-    </table>
-  
-</div>
-<pagination-controls class="my-pagination" (pageChange)="p=$event"></pagination-controls>
+            <tbody>
+                <tr *ngFor="let file of files | paginate:{itemsPerPage:5,currentPage:p} | filter:term"
+                    [class.table-l]="file.flag">
+                    <td data-label="name">{{file.name}}</td>
+                    <td data-label="size">{{file.size}}</td>
+                    <td data-label="views">{{file.views}}</td>
+                    <td data-label="status"><span class="status" [class.green]="!file.flag"
+                            [class.orange]="file.flag">{{file.status}}</span></td>
+                    <td data-label="created at">{{file.createdAt}}</td>
+                    <td data-label="actions"><span class="exp"><img src="/assets/images/export.png">Export</span>
+                        <span><img src="/assets/images/delete.png">Delete</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <pagination-controls class="my-pagination" (pageChange)="p=$event"></pagination-controls>
 </div>

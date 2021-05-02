@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,AfterViewInit} from '@angular/core';
 import { SidebarService } from '../sidebar.service';
 declare var $:any;
 export enum MENU{
@@ -15,11 +15,15 @@ export enum MENU{
   styleUrls: ['./others.component.css']
 })
 
-export class OthersComponent implements OnInit {
+export class OthersComponent implements OnInit,AfterViewInit {
   menu:MENU;
   constructor(private ss:SidebarService) { 
   }
+  ngAfterViewInit(): void {
+   
+  }
   setMenu(item){
+  
 this.menu=item;
 if($("#sidenavId").hasClass("opened-sidenav")&&$(".header-mobile").hasClass("opened-mobile")){
   this.closeSidebar()
@@ -28,9 +32,11 @@ if($("#sidenavId").hasClass("opened-sidenav")&&$(".header-mobile").hasClass("ope
 
   ngOnInit(): void {
     this.ss.subject.subscribe(value=>{
-      console.log(value=="open sidebar")
+      
       if(value=="open sidebar"){
+        alert($(document).height())
         $("#sidenavId").addClass("opened-sidenav")
+        $("#sidenavId").css({height:$(document).height()})
         $("#sidenavId").removeClass("closed-sidenav")
         $(".header-mobile").addClass("opened-mobile")
         $(".header-mobile").removeClass("closed-mobile")
