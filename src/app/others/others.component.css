@@ -3,7 +3,7 @@
 }
 .opened-sidenav{
     width: 80%!important;
-    display: flex!important;
+    display: block!important;
     transition: all .5s;
 }
 .closed-sidenav{

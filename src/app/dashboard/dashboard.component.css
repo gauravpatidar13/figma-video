@@ -122,9 +122,13 @@ font-size: 14px;
 @media (max-width:567px){
     .card{
         width: auto;
+        margin-right: 0;
     }
     .card#doc{
         width: auto;
+    }
+    .container-fluid{
+        width: 100%;
     }
 }
 @media (min-width:568px){

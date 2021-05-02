@@ -219,6 +219,61 @@ td span.exp{
 .my-pagination /deep/ .ngx-pagination li:last-child{
     border-right:none;
 }
+
+@media (max-width:567px){
+    .add-folder-btn{
+        display: none;
+    }
+    .search-wr{
+        display: none;
+    }
+  
+    .table{
+        width: 100%!important;
+        border-collapse: collapse!important;
+    }
+     .table thead{
+        display: none;
+    }
+     .table,.table tbody,.table tr,.table td{
+         display: block!important;
+         width: 100%!important;
+     }
+     .table tr{
+         margin-bottom: 15px;
+     }
+     .table td{
+         text-align: right;
+         display: flex!important;
+         justify-content: flex-start;
+         padding-left: 35%;
+         position: relative;
+     }
+     .table td::before{
+         content:attr(data-label);
+         position: absolute;
+         left:0;
+         text-transform: uppercase;
+         font-weight: bold;
+         font-size: 12px;
+         font-family: 'Noto Sans';
+         width: 30%;
+         text-align: left;
+         padding-left: 15px;
+     }
+     tr{
+         border-bottom: 1px solid #e3e5e8;
+     }
+     tr:last-child{
+         border-bottom: none;
+     }
+     .table td span{
+         float:right;
+     }
+     tr td:first-child{
+         padding-left: 35%;
+     }
+}
 @media(max-width:1365px){
  
 .file-manager-content{

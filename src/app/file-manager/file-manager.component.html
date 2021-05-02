@@ -31,12 +31,12 @@
             </thead>
            <tbody>
                <tr *ngFor="let file of files | paginate:{itemsPerPage:5,currentPage:p} | filter:term" [class.table-l]="file.flag">
-                   <td>{{file.name}}</td>
-                   <td>{{file.size}}</td>
-                   <td>{{file.views}}</td>
-                   <td><span class="status" [class.green]="!file.flag" [class.orange]="file.flag">{{file.status}}</span></td>
-                   <td>{{file.createdAt}}</td>
-                   <td><span class="exp"><img src="/assets/images/export.png">Export</span>
+                   <td data-label="name">{{file.name}}</td>
+                   <td data-label="size">{{file.size}}</td>
+                   <td data-label="views">{{file.views}}</td>
+                   <td data-label="status"><span class="status" [class.green]="!file.flag" [class.orange]="file.flag">{{file.status}}</span></td>
+                   <td data-label="created at">{{file.createdAt}}</td>
+                   <td data-label="actions"><span class="exp"><img src="/assets/images/export.png">Export</span>
                     <span><img src="/assets/images/delete.png">Delete</span>
                 </td>
                </tr>
