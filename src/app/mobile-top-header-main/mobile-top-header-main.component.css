@@ -23,3 +23,25 @@
         display: none;
     }
 }
+@media (min-width:568px) and (max-width:767px){
+    .common-header{
+        margin-top: -20px;
+    }
+    .menu{
+        display:block;
+    }
+    .common-header app-user{
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .common-header{
+        margin-top: -20px;
+    }
+    .menu{
+        display:block;
+    }
+    .common-header app-user{
+        display: none;
+    }
+}

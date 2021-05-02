@@ -220,7 +220,7 @@ td span.exp{
     border-right:none;
 }
 
-@media (max-width:567px){
+@media (max-width:767px){
     .add-folder-btn{
         display: none;
     }

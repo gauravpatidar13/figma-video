@@ -38,3 +38,31 @@
         display: none;
     }
 }
+@media (min-width:568px) and (max-width:767px){
+    .header-top{
+        margin-top: -20px;
+    }
+    .menu-mobile-header{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        align-items: center;
+    }
+    .other-top-header{
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .header-top{
+        margin-top: -20px;
+    }
+    .menu-mobile-header{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        align-items: center;
+    }
+    .other-top-header{
+        display: none;
+    }
+}
